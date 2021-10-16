@@ -31,7 +31,7 @@ app.use((req, res) => {
 });
 
 // Listen @ designated port
-const PORT = process.env.NODE_PORT || 3333;
+const PORT = process.env.WORKING_PORT || 3333;
 app.listen(PORT, () => {
     console.log(`Alive @ localhost:${PORT}`);
 });
